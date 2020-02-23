@@ -359,7 +359,7 @@ footer{
     .container-svg-mobile{ width: 100%; margin: 30px 0; display: flex; justify-content: center; align-items: center; }
     .container-svg-mobile > img{ width: 50%; }
     
-    .container-inputs{ grid-template-columns: 1fr; grid-gap: 0; }
+    .container-inputs{ grid-template-columns: 1fr; grid-gap: 0; border-radius: 10px; }
     .input-calculadora{ border-radius: 0; box-shadow: none;}
     .container-svg{ width: 100%; margin: 30px 0; }
     .container-inputs{ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.5), 0 6px 20px 0 rgba(0, 0, 0, 0.5); }
