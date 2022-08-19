@@ -1,13 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@300;400;500&display=swap" rel="stylesheet">
+  <link rel="icon" type="image/x-icon" href="/asset/terminal-icon.jpg">
   <link rel="stylesheet" href="main.css">
-  <title>🧐</title>
+  <script src="script.js" defer></script>
+  <title>LeoBardo Terminal</title>
 </head>
+
 <body>
-  🧐
+  <div class="wrapper">
+    <header class="welcome">
+      <h1>Bem-vindo ao meu terminal!</h1>
+      <p>Digite 'help' para ver os comandos disponíveis.</p>
+    </header>
+    <div class="lines">
+    </div>
+    <div class="line">
+      <span class="user">visitante@leobardineo.github.io:~$ </span>
+      <span class="input"></span>
+      <span class="caret">█</span>
+      <input type="text" name="commandInput" id="commandInput" autofocus></input>
+    </div>
+  </div>
 </body>
+
 </html>
